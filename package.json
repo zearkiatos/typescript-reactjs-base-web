@@ -4,6 +4,7 @@
   "description": "This is a reactjs ⚛️ with typescript 🟦 base project to understand, learn and practice how to build a react web application with typescript without any framework or extra dependencies",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack serve --config webpack.config.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +29,10 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "html-webpack-plugin": "^5.5.3",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",
     "webpack": "5.88.2",
