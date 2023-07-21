@@ -1,0 +1,42 @@
+{
+  "name": "typescript-reactjs-base-web",
+  "version": "1.0.0",
+  "description": "This is a reactjs ⚛️ with typescript 🟦 base project to understand, learn and practice how to build a react web application with typescript without any framework or extra dependencies",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zearkiatos/typescript-reactjs-base-web.git"
+  },
+  "keywords": [
+    "Reactjs",
+    "javascript",
+    "typescript",
+    "nodejs",
+    "webpack"
+  ],
+  "author": "Pedro Capriles <caprilespe@outlook>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zearkiatos/typescript-reactjs-base-web/issues"
+  },
+  "homepage": "https://github.com/zearkiatos/typescript-reactjs-base-web#readme",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "5.88.2",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
+  }
+}
